@@ -2,7 +2,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>天使妹妹和鸡汤哥哥的故事</title>
+<title>张晓奇我爱你</title>
 <link type="text/css" rel="stylesheet" href="renxi/default.css">
 <script type="text/javascript" src="renxi/jquery.min.js"></script>
 <script type="text/javascript" src="renxi/jscex.min.js"></script>
@@ -16,7 +16,7 @@
 <style type="text/css">
 <!--
 .STYLE1 {
-	color: #666666
+    color: #666666
 }
 -->
 </style>
@@ -29,20 +29,20 @@
   <div id="error">本页面采用HTML5编辑，目前您的浏览器无法显示，请换成谷歌(Chrome)或者火狐(Firefox)浏览器，或者其他游览器的最新版本。</div>
   <div id="wrap">
     <div id="text">
-      <div id="code"> <font color="#FF0000"> <span class="say">亲爱的天使妹妹，很高兴认识你，谢谢你</span><br>
+      <div id="code"> <font color="#FF0000"> <span class="say">张晓奇我爱你，I Love You!</span><br>
         <span class="say"> </span><br>
-        <span class="say"> 我希望你大学可以充实和快乐，做最好的自己，做自己喜欢的自己！</span><br>
+        <span class="say"> 张晓奇我爱你，I Love You!</span><br>
         <span class="say"> </span><br>
-        <span class="say">我们之间发生过很多故事，我不后悔！</span><br>
-        <span class="say">祝你能够得到自己想得到的，青春不留遗憾！</span><br>
-        <span class="say">有些事情你我都不说，但是我们都懂，那叫心照不宣！我们认识，那叫缘分！</span><br>
-        <span class="say">最后祝愿我们以后都能够幸福快乐！</span><br>
+        <span class="say">张晓奇我爱你，I Love You!</span><br>
+        <span class="say">张晓奇我爱你，I Love You!</span><br>
+        <span class="say">张晓奇我爱你，I Love You!</span><br>
+        <span class="say">张晓奇我爱你，I Love You!</span><br>
         <span class="say"> </span><br>
-        <span class="say"><span class="space"></span> -- 鸡汤哥哥--</span> </font>
+        <span class="say"><span class="space"></span> -- 爱你的我--</span> </font>
         </p>
       </div>
     </div>
-    <div id="clock-box"> <span class="STYLE1"></span><font color="#33CC00">亲爱的天使妹妹，我认识你</font> <span class="STYLE1">已经是……</span>
+    <div id="clock-box"> <span class="STYLE1"></span><font color="#33CC00">亲爱的张晓奇，我爱你</font> <span class="STYLE1">已经是……</span>
       <div id="clock"></div>
     </div>
     <canvas id="canvas" width="1100" height="680"></canvas>
@@ -53,7 +53,7 @@
 <script>
     (function(){
         var canvas = $('#canvas');
-		
+        
         if (!canvas[0].getContext) {
             $("#error").show();
             return false;        }
@@ -138,14 +138,14 @@
 
         var growAnimate = eval(Jscex.compile("async", function () {
             do {
-    	        tree.grow();
+                tree.grow();
                 $await(Jscex.Async.sleep(10));
             } while (tree.canGrow());
         }));
 
         var flowAnimate = eval(Jscex.compile("async", function () {
             do {
-    	        tree.flower(2);
+                tree.flower(2);
                 $await(Jscex.Async.sleep(10));
             } while (tree.canFlower());
         }));
@@ -177,14 +177,14 @@
         }));
 
         var textAnimate = eval(Jscex.compile("async", function () {
-		    var together = new Date();
-		    together.setFullYear(2017,6, 10); 			//时间年月日
-		    together.setHours(16);						//小时	
-		    together.setMinutes(53);					//分钟
-		    together.setSeconds(0);					//秒前一位
-		    together.setMilliseconds(2);				//秒第二位
+            var together = new Date();
+            together.setFullYear(2017,6, 10);           //时间年月日
+            together.setHours(16);                      //小时    
+            together.setMinutes(53);                    //分钟
+            together.setSeconds(0);                 //秒前一位
+            together.setMilliseconds(2);                //秒第二位
 
-		    $("#code").show().typewriter();
+            $("#code").show().typewriter();
             $("#clock-box").fadeIn(500);
             while (true) {
                 timeElapse(together);
